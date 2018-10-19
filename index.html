@@ -7,13 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
 
     <title>Super Software</title>
   </head>
   <body>
     <!--標題選單-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary navbar-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary navbar-dark sticky-top">
+      <a class="navbar-brand" href="#">挪薩創意企業</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,13 +31,13 @@
             <a class="nav-link" href="#">價格</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">禁用</a>
+            <a class="nav-link disabled" href="#">下載</a>
           </li>
         </ul>
       </div>
     </nav>
     <!--頁首-->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide shadow" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="assets/images/header_1.jpg" alt="First slide">
@@ -58,19 +60,21 @@
         </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <h1>體驗極致的編輯體驗</h1>
+            <div class="col text-center">
+                <h1 class="block-title mx-auto">體驗極致的編輯體驗</h1>
+                <p>在這個創意的軟體中，展信另一個真實的自己。</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-2 d-md-block d-none">
-                1
+            <div class="col-lg-2 col-md-1 d-md-block d-none"></div>
+            <div class="col-lg-8 col-md-12 block-images text-center">
+                <img class="w-75" src="https://www.adobe.com/content/dam/acom/en/products/rush/ru-riverflow-1-710x480.png/_jcr_content/renditions/cq5dam.mobile_640.640.433.png">
             </div>
-            <div class="col-8">
-                2<img>
-            </div>
-            <div class="col-2  d-md-block d-none">
-                1
+            <div class="col-lg-2 col-md-1 d-md-block d-none"></div>
+        </div>
+        <div class="row my-3">
+            <div class="col text-center">
+            <button type="button" class="btn btn-primary">了解更多</button>
             </div>
         </div>
     </div>
